@@ -4,11 +4,13 @@
   "description": "random bot",
   "main": "main.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.7.1"
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
   }
 }
